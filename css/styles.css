@@ -796,12 +796,12 @@ img {
 .join {
   width: 100%;
   height: 86px;
+  margin-right: 0;
   margin-left: 93px;
 }
 .join-up {
   margin-bottom: 20px;
-  font-family: Roboto;
-  font-style: normal;
+  margin-left: 93px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -820,6 +820,8 @@ img {
 }
 .form-fild {
   position: relative;
+  margin-right: 0;
+  margin-left: 93px;
 }
 
 .email-label {
@@ -859,10 +861,6 @@ img {
 
 .btn-text {
   padding-left: 29px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
