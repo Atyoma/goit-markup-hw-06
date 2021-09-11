@@ -56,6 +56,7 @@
                 <button class="button" type="button" data-modal-open>Заказать услугу</button>
         </div>
         </section>
+
         <!--Модальное окно-->
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
@@ -64,7 +65,27 @@
                         <use href="./images/icons.svg#close-window"></use>
                     </svg>
                 </button>
-            </div></div>
+<form action="#" class="modal-form">
+    <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <div class="modal-form-fild">
+    <label for="modal-input-name" class="modal-for-label">Имя</label>
+    <input type="text" id="modal-input-name" class="modal-for-input" name="name">
+</div>
+<div class="modal-form-fild">
+    <label for="modal-input-tel" class="modal-for-label">Телефон</label>
+    <input type="text" id="modal-input-tel" class="modal-for-input" name="tel">
+</div>
+<div class="modal-form-fild">
+    <label for="modal-input-email" class="modal-for-label">Почта</label>
+    <input type="text" id="modal-input-email" class="modal-for-input" name="modal-email">
+</div>
+<div class="modal-form-fild">
+    <label for="modal-input-comments" class="modal-for-label">Комментарий</label>
+    <input type="text" id="modal-input-comments" class="modal-for-input" name="comments" placeholder="Введите текст" textarea >
+</div>
+</form>
+            </div> 
+    </div>
                         <!--Секции-->
         <section class="section best">
             <div class="container ">
@@ -370,8 +391,11 @@
                 </form>
         </div>
     </footer>
-    <script src="./js/modal.js">
-    </script>
+    
+     <script src="./js/modal.js">
+    </script>   
+    
+    
 </body>
 
 </html>
